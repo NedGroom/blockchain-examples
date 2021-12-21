@@ -1,10 +1,14 @@
+/**
+        In Main.java we construct 3 blocks from Block.java, including one genesis block.
+        We demonstrate the hashes changing when transactions are changed. 
+ */
+
+
 package YT01;
 
 import java.util.ArrayList;
 
 public class Main {
-
-    public int movingOn = 1;
     
     /**
         Each block will contain:
@@ -13,7 +17,7 @@ public class Main {
             - own hash
     */
 
-    ArrayList<Block> blockchain = new ArrayList<>();
+    ArrayList<Block> blockchain = new ArrayList<>(); // For use practically. Not made use of here.
 
     public static void main(String[] args) {
 

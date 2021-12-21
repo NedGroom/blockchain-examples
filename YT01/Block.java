@@ -1,3 +1,10 @@
+/**
+        In Block.java we construct one way of implementing a Block for a blockchain.
+        To make a block, we must know the hash of the previous block, and our new transactions.
+        With these we create our new hash for this new block, so that it can be used to create the next one.
+ */
+
+
 package YT01;
 
 import java.util.Arrays;
