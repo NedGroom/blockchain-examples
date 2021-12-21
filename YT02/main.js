@@ -85,3 +85,6 @@ console.log("Is blockchain valid? " + muffinCoin.isChainValid());       // the r
 //                                                                        
 // Print a readable version of the whole chain
 console.log(JSON.stringify(muffinCoin, null, 4));
+
+
+
