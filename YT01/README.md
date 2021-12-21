@@ -22,7 +22,7 @@ Conlclusion notes:
 ----
 
 
-Practical notes while doing:
+Informal notes while doing:
 
     Blockchain itself is a simple data structure at its core.
     
