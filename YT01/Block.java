@@ -2,8 +2,6 @@ package YT01;
 
 import java.util.Arrays;
 
-import javax.sql.ConnectionEventListener;
-
 public class Block {
 
     private int previousHash;

@@ -5,11 +5,30 @@ This folder is my workspace for going through the following youtube video:
 Author: "Ivan on Tech"
 
 
+--
+
+
+Conlclusion notes:
+
+    If I tell everyone Satoshi gave me 100 bitcoins and here is the blockchain that confirms that.
+    They will look at it and say they have their own versions of the blockchain and say the digital signatures are completely different.
+    Practicalities of confirmations coming later.
+
+    Contents
+        Basics of hashing
+        Linking blocks together by their hashes
+
+
+----
+
+
 Practical notes while doing:
 
     Blockchain itself is a simple data structure at its core.
     
-    
+
+----
+
 
 Academic notes from video:
 
@@ -29,6 +48,8 @@ Academic notes from video:
         AKA they each act as another confirmation of the legitimacy of Block X. 
 
 
+----
+
 
 Academic notes that I am familiar with, mainly through 7 terms of study during `Computer Science BA, University of Cambridge`:
 
@@ -39,3 +60,5 @@ Academic notes that I am familiar with, mainly through 7 terms of study during `
     The reverse hashing fucntion is not yet proven to be impossible.
         The assumption of its safety is the basis of all public key cryptography.
 
+
+----
