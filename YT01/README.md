@@ -3,7 +3,9 @@
 21.Dec.21
 
 This folder is my workspace for going through the following youtube video:
+
 "Building a Blockchain in Under 15 Minutes" - https://www.youtube.com/watch?v=baJYhYsHkLM
+
 Author: "Ivan on Tech"
 
 
