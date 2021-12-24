@@ -16,7 +16,7 @@ Author: "Ivan on Tech"
 
 Conlclusion notes:
 
-    
+    Would like to learn to build on Truffle.
 
 
 
@@ -33,26 +33,6 @@ Informal notes while doing:
     Or use 'remix' (solidity ide) if playground / demonstration purposes.
     Remix executed in a simutated blockchain on the ide
     Must specify version of solidity.
-
-
-    
-
-----
-
-
-Academic notes from video:
-
-    
-
-
-
-----
-
-
-Academic notes that I am familiar with:
-
-
-
 
 
 ----
