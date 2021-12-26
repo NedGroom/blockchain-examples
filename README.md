@@ -7,7 +7,7 @@ Youtube accounts:
 
     "Ivan on Tech"
     Website: https://academy.ivanontech.com
-    -
+    <br />
     "Simply Explained"
     Xavier
     Website: https://savjee.be/
