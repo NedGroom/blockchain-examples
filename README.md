@@ -13,6 +13,8 @@ Youtube accounts:
     Website: https://savjee.be/
     
     "EatTheBlocks"
+    https://eattheblocks.com/
+
 
 
 Potential projects:
@@ -26,4 +28,6 @@ Potential projects:
     Author: EatTheBlocks
     Video: https://www.youtube.com/watch?v=jgpyeu5nABI
 
-    
+    Create a real world blockchain app (Ethereum, Solidity, Web3.0)
+    Author: Dapp University, Gregory
+    Video: https://www.youtube.com/watch?v=Oia7uz-jXJI
