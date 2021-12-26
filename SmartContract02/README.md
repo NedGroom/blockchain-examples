@@ -37,11 +37,42 @@ Key steps:
     Create smart contract in contracts.
     
     `truffle compile`
+        build / artifact file made.
 
     Testing your SCs: see tests/simpleStorage.js
+        `Truffle test`
 
-    Deploying to the blockchain
-        First to local development blockchain, Ganache.
+    Create migration file
+        To deploy to the blockchain
+        First to local development blockchain, using Ganache tool.
+        `truffle develop`
+        `migrate --reset` in prompt.
+
+    To use public testnet
+        Need to get testnet ETH/BNB to deploy smart contract. 
+        Define networks in `truffle-config.js`.
+
+        truffle migrate --reset --network bsctestnet
+        deploys both migrations and saves to the public test chain.
+    
+    Interact with deployed smart contract on public testnet:
+        Attach truffle console to public testnet:
+            `truffle console --network bscTestNet`
+        Get pointer to our deployed smart contract:
+            `storage = await SimpleStorage.deployed()`   
+            SimpleStorage artifact is imported automatically in the console.
+            `storage.address` for readable address. 
+            (same as contract address seen on bscscan)
+
+        Update data on smart contract.
+        `await storage.updateData(10)`
+        `data = await storage.readData()`
+        `data.toString()`
+
+    Can also use this commands on local blockchain console.
+        After using these commands.
+        `truffle develop`
+        `migrate --reset`
 
 
 
@@ -87,6 +118,7 @@ Informal notes while doing:
     Create migration file.
 
     Run `truffle develop`.
+        To start local development blockchain.
 
     We see the port where the blockchain is running.
         Generated 10 accounts, prefunded with 10ETH each.
@@ -99,7 +131,51 @@ Informal notes while doing:
 
     
 
-    Now we can see how to deploy to a public testnet.
+    To use public testnet
+        (less flexible than local development blockchain as do not control the nodes)
+        Need to get testnet ETH to deploy smart contract. 
+        (or testnet BNB to deploy to Binance smart chain public testnet)
+
+    We will use bnb.
+
+    Copy address 1 into https://testnet.binance.org/faucet-smart to get money.
+
+
+    In `truffle-config.js`, add first two lines, and also define some networks below.
+        eth, ethTestNet, bsc, bscTestNet
+
+    Normal terminal: truffle migrate --reset --network bsctestnet
+        error cannot find hdwallet-provider
+        npm install @truffle/hdwallet-provider
+    This deploys both migrations and saves to the chain.
+
+    Final cost shows ETH as originally only compatible for ETH, so must mentally replace with BNB (only the unit, not the quantity!).
+    Can verify in testnet.bscscan, where we can also see the trx hash and the contract address.
+
+    Now I know how to deploy smart contracts with truffle.
+
+
+
+    Interact with deployed smart contract on public testnet:
+        Attach truffle console to public testnet:
+            `truffle console --network bscTestNet`
+        Get pointer to our deployed smart contract:
+            `storage = await SimpleStorage.deployed()`   
+            SimpleStorage artifact is imported automatically in the console.
+            `storage.address` for readable address. 
+            (same as contract address seen on bscscan)
+
+        Update data on smart contract.
+        `await storage.updateData(10)`
+        `data = await storage.readData()`
+        `data.toString()`
+
+    Can also use this commands on local blockchain console.
+        After using these commands.
+        `truffle develop`
+        `migrate --reset`
+
+
 
 
 ----
