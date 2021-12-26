@@ -4,16 +4,15 @@ This will contain different projects which will each showcase different aspects 
 
 
 Youtube accounts:
-{
     "Ivan on Tech"
     Website: https://academy.ivanontech.com
-
+    -
     "Simply Explained"
     Xavier
     Website: https://savjee.be/
-
+    -
     "EatTheBlocks"
-}
+
 
 Potential projects:
 
