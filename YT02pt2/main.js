@@ -84,7 +84,7 @@ console.log('Mining block 1...');
 muffinCoin.addBlock(new Block(1, "23.12.21", {amount: 4}));      // previous hash instantiates at empty, and will update when block is added.
 
 console.log('Mining block 2...');
-muffinCoin.addBlock(new Block(2, "24.12.21", {amount: 10}));
+muffinCoin.addBlock(new Block(2, "24.12.21", {amount: 10}));        
 
 
 

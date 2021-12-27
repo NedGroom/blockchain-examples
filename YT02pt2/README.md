@@ -33,7 +33,7 @@ Academic notes:
     Bitcoin requires the hash of a block to start with a certain number of zeros.
     Have to try a lot of combinations to find a hash that fits - this is the difficulty.
 
-    Mining = you have to proove that you put a lot of computing power into making the block.
+    Mining = you have to prove that you put a lot of computing power into making the block.
 
     The difficulty is set so that there is a steady amount of new blocks.
     Bitcoin is one coin every ten minutes.
