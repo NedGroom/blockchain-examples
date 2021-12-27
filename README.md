@@ -1,7 +1,11 @@
 # blockchain-examples
 This will contain different projects which will each showcase different aspects of blockchain technologies. References will be included here to research and videos used.
 
+Concepts that I have cemented understanding for through implementation:
 
+    Proof of work via nonce usage, making block mining difficult.
+
+    
 
 Youtube accounts:
 
@@ -22,7 +26,6 @@ Potential projects:
     Build first blockchain app using Ethereum Smart Contracts and Solidity.
     Author: freeCodeCamp, by Gregory from Dapp University
     Video: https://www.youtube.com/watch?v=coQ5dg8wM2o&t=1s
-
 
     Code a prediction market on Ethereum using Solidity, Truffle, React.
     Author: EatTheBlocks
