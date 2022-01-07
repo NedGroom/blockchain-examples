@@ -1,13 +1,13 @@
-# YT02pt4
-27.Dec.21
+# MoralisIntro
+03.Jan.22
 
 ----
 
-This folder is my workspace for going through the following youtube video:
+This folder is my workspace for going through the following youtube video playlist:
 
-"Signing transactions - Blockchain in Javascript Part 4" - https://www.youtube.com/watch?v=kWQ84S13-hw
+"React and Moralis Programming" - https://www.youtube.com/playlist?list=PLFPZ8ai7J-iSbOoPePI9c_XCeZQLpOO2z
 
-Author: "Simply Explained", (Xavier)
+Author: "Moralis Web3", (Xavier)
 
 
 ----
@@ -15,33 +15,31 @@ Author: "Simply Explained", (Xavier)
 
 Purpose:
 
-    Now, anyone can add transactions with any addresses.
-    We will make it mandatory for transactions to be signed with a private and public key. (you can only spend coins from a wallet if you have its private key)
+    This is so that I can learn how to use the Moralis development platform to quickly make decentralised apps.
 
-    Clean up main.js file. Move classes into blockchain.js.
+    I will also remind myself on how React.js works for frontend applications.
+
+    Moralis is middleware software that apps can be built upon, allowing easier interaction with blockchains.
+
+    We will be making a simple twitter application.
+
+    1. Authentication
+    2. Save user data
+    3. File handling
+    4. Post data/tweets
+    5. Query data/tweets
+    6. Cloud functions
+    7. Automatic refetch data
+    8. Live data (subscriptions)
+
+    Not going over smart contracts. 
 
 ----
 
 
 Informal notes while doing:
 
-    Classes moved to blockchain.js
-    Modules are exported from here
-        module.exports.Blockchain = Blockchain;
-        module.exports.Transaction = Transaction;  
-    They are imported in main.js
-        const {Blockchain, Transaction} = require('./blockchain');
-
-
-    New file needed to generate private/public key pairs, to represent a wallet.
-    keygenerator.js
-
-
-    `const EC = require('elliptic').ec;`
-    has methods to create key pair, sign something, and to verify a signature.
-    `npm install elliptic`
-
-    `secp265k1` is the algorithm (/elliptic curve) that is the basis for bitcoin wallet.
+  
 
     
 
