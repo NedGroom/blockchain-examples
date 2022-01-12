@@ -1,29 +1,16 @@
 # MoralisIntro
+
 03.Jan.22
 
-----
+---
 
-This folder is my workspace for going through the Moralis middleware framework.
+This folder contains different projects using the Moralis middleware program:
 
-Initially, I set up a React twitter clone app using Moralis.
+The first video is the introduction and setup of Moralis and React. (mainly focusing on Moralis, as familiar with React)
 
-Author: "Moralis Web3", (Xavier)
+    "React & Moralis - Introduction And Setup [Part 1]" - https://www.youtube.com/watch?v=BRASwSnGLYc
 
+    Author: "Moralis Web3"
 
-----
+---
 
-
-
-
-----
-
-
-Informal notes while doing:
-
-  
-
-    
-
-
-
-----
