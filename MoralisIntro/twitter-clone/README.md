@@ -64,7 +64,7 @@ Steps taken while doing:
 
         React Moralis is a provider for the React application that will make all interactions with Moralis easy. Custom hooks, authentication, data rendering. (documentation: github.com/MoralisWeb3/react-moralis)
 
-        As with Chakra provider we need Moralis provder.
+        As with Chakra provider we need Moralis provider.
 
 
     Authentication, sign up, logging in
@@ -83,7 +83,16 @@ Steps taken while doing:
         There are very similar SignUp and LogIn components added, using imported signup/login functions.
 
 
-    5.  Cleaning up. Create Auth.js
+    5.  Cleaning up. Create Auth.js.
+
+
+    6.  Import `user` data from useMoralis().
+        For greeting, 
+
+    7.  `npm install react-router react-router-dom`
+        Add a Router / BrowserRouter provider, wrapping the App in index.js
+
+        With this we can switch between Routes based on url.
 
 ---
 
