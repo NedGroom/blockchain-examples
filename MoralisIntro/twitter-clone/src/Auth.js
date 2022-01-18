@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useMoralis } from 'react-moralis';
-import { Button, Stack, Text, Alert, AlertIcon, Box, AlertTitle, AlertDescription, CloseButton, Input } from '@chakra-ui/react';
+import { Button, Stack, Text, Input } from '@chakra-ui/react';
+import { ErrorBox } from './Error';
 
 
 const SignUp = () => {
@@ -40,18 +41,7 @@ export const Auth = () => {
     return (
         <Stack spacing={6}>
 
-            {authError && (
-                <Alert status='error'>
-                <AlertIcon />
-                <Box flex='1'>
-                    <AlertTitle>Authentication has failed</AlertTitle>
-                    <AlertDescription display='block'>
-                    {authError.message}
-                    </AlertDescription>
-                </Box>
-                <CloseButton position='absolute' right='8px' top='8px' />
-                </Alert>
-            )}
+            {authError && <ErrorBox title="Authentication has failed" message={authError.message} /> }
 
             <Button isLoading={isAuthenticating} onClick={() => authenticate()}>Authenticate via Metamask</Button>
 
