@@ -14,8 +14,6 @@ Author: "Moralis Web3"
 
 Purpose:
 
-    Purpose:
-
     This is so that I can learn how to use the Moralis development platform to quickly make decentralised apps.
 
     I will also remind myself on how React.js works for frontend applications.
