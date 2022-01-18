@@ -4,9 +4,9 @@
 
 ---
 
-The first video is the introduction and setup of Moralis and React. (mainly focusing on Moralis, as familiar with React)
+The video series is the introduction and setup of Moralis and React, and goes through how to set up the React website, interacting through Moralis.
 
-"React & Moralis - Introduction And Setup [Part 1]" - https://www.youtube.com/watch?v=BRASwSnGLYc
+"React & Moralis - Introduction And Setup, Authentication, Sign Up and Login, Save User Data" - https://www.youtube.com/playlist?list=PLFPZ8ai7J-iSbOoPePI9c_XCeZQLpOO2z
 
 Author: "Moralis Web3"
 
@@ -33,10 +33,12 @@ Purpose:
     7. Automatic refetch data
     8. Live data (subscriptions)
 
-    Not going over smart contracts. 
+    Not going over smart contracts.
 
     Making a simple twitter.
     How to handle data to/from Moralis.
+
+    ::: NB the course stopped after 3 videos, so this was only for user data and setup of environment, authentication, error handling etc :::
 
 ---
 
@@ -87,12 +89,17 @@ Steps taken while doing:
 
 
     6.  Import `user` data from useMoralis().
-        For greeting, 
+        For greeting,
 
     7.  `npm install react-router react-router-dom`
         Add a Router / BrowserRouter provider, wrapping the App in index.js
 
         With this we can switch between Routes based on url.
+
+        When checking if Authenticated, it takes a few miliseconds for Moralis to check so we get undefined behaviour.
+        Add isAuthUndefined variable, which will be true in first few miliseconds of the application.
+
+    8.  Add functionality of profile page to save changes to Moralis user data.
 
 ---
 
@@ -101,3 +108,6 @@ Debugging:
     Must use `px create-react-app --scripts-version 4.0.3 twitter-clone-3` when creating project.
 
     Must use v4 for chakra: `npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4`.
+
+    7. 'Switch' not exported from 'react-router-dom'. Switch is replaced in react-router-domv6, so run `npm install react-router-dom@5`.
+    Supposedly you can also use
