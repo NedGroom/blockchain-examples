@@ -1,3 +1,6 @@
+
+I have not spent much time on this.. It was during some time off that I wanted to further my understanding of different blockchain technologies by looking at different approaches to low-level implementation.
+
 # blockchain-examples
 This will contain different projects which will each showcase different aspects of blockchain technologies. References will be included here to research and videos used.
 
